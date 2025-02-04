@@ -1,8 +1,8 @@
-package com.arnyminerz.ggs.com.arnyminerz.ggs.data
+package data
 
-import com.arnyminerz.ggs.com.arnyminerz.ggs.serialization.LocalDateSerializer
 import java.time.LocalDate
 import kotlinx.serialization.Serializable
+import serialization.LocalDateSerializer
 
 @Serializable
 data class MetaData(

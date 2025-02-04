@@ -37,3 +37,21 @@ enough to include other ones.
 
 Right now only Colmi Rings are supported, and only "Activity data" is exported. All the activity information is not
 provided by Gadgetbridge, so it's always set to `0`.
+
+## Building
+
+Compile artifact using IntelliJ IDEA: Build > Build Artifacts...
+
+(In a terminal, from repo root):
+```shell
+cd out/artifacts/Gadgetbridge_Garmin_Sync_jar
+unzip Gadgetbridge-Garmin-Sync.jar -d gadgetbridge
+
+rm gadgetbridge/META-INF/*.SF gadgetbridge/META-INF/*.RSA gadgetbridge/META-INF/*.DSA
+
+rm Gadgetbridge-Garmin-Sync.jar
+cd gadgetbridge
+zip -r Gadgetbridge-Garmin-Sync.jar *
+cd ..
+mv gadgetbridge/Gadgetbridge-Garmin-Sync.jar .
+```

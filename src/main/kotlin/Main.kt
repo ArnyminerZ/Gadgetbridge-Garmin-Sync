@@ -1,11 +1,11 @@
 package com.arnyminerz.ggs
 
-import com.arnyminerz.ggs.com.arnyminerz.ggs.cli.ArgumentParser
-import com.arnyminerz.ggs.com.arnyminerz.ggs.cli.Database
-import com.arnyminerz.ggs.com.arnyminerz.ggs.cli.Metadata
-import com.arnyminerz.ggs.com.arnyminerz.ggs.data.Activity
-import com.arnyminerz.ggs.com.arnyminerz.ggs.data.MetaData
-import com.arnyminerz.ggs.com.arnyminerz.ggs.gadgetbridge.Gadgetbridge
+import cli.ArgumentParser
+import cli.Database
+import cli.Metadata
+import data.Activity
+import data.MetaData
+import gadgetbridge.Gadgetbridge
 import java.io.File
 import java.time.LocalDate
 import kotlinx.serialization.ExperimentalSerializationApi

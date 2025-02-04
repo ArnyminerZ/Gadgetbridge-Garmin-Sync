@@ -1,4 +1,4 @@
-package com.arnyminerz.ggs.com.arnyminerz.ggs.cli
+package cli
 
 object Output : CLIArgument {
     override val key: String = "output"

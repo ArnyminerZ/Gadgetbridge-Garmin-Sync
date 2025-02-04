@@ -1,4 +1,4 @@
-package com.arnyminerz.ggs.com.arnyminerz.ggs.cli
+package cli
 
 sealed interface CLIArgument {
     val key: String

@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.arnyminerz.ggs"
-version = "1.0.0-ALPHA"
+version = "1.0.0-alpha01"
 
 repositories {
     mavenCentral()
@@ -21,13 +21,13 @@ dependencies {
     // Serialization
     implementation(libs.serialization.csv)
     implementation(libs.serialization.json)
-
-    testImplementation(kotlin("test"))
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
 kotlin {
     jvmToolchain(21)
+}
+
+tasks.withType<org.gradle.jvm.tasks.Jar> {
+    exclude("META-INF/BC2048KE.RSA", "META-INF/BC2048KE.SF", "META-INF/BC2048KE.DSA")
+    exclude("META-INF/BC2048KE.RSA", "META-INF/BC2048KE.SF", "META-INF/BC2048KE.DSA")
 }

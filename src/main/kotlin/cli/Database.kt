@@ -1,4 +1,4 @@
-package com.arnyminerz.ggs.com.arnyminerz.ggs.cli
+package cli
 
 object Database : CLIArgument {
     override val key: String = "database"

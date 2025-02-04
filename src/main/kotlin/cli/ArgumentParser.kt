@@ -1,4 +1,4 @@
-package com.arnyminerz.ggs.com.arnyminerz.ggs.cli
+package cli
 
 object ArgumentParser {
     private val arguments = listOf<CLIArgument>(Help, Database, Metadata)
