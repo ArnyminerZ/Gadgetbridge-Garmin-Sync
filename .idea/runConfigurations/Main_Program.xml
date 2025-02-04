@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main Program" type="JetRunConfigurationType">
+    <option name="MAIN_CLASS_NAME" value="com.arnyminerz.ggs.MainKt" />
+    <module name="Gadgetbridge-Garmin-Sync.main" />
+    <option name="PROGRAM_PARAMETERS" value="--database ./Gadgetbridge.db" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
