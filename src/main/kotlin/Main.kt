@@ -17,7 +17,7 @@ val commands: List<Command> = listOf(ExportCSVCommand)
 fun main(args: Array<String>) {
     val commandArg = args[0]
     val arguments = ArgumentParser.parse(
-        args.let { it.copyOfRange(0, it.size) }
+        args.let { it.copyOfRange(1, it.size) }
     )
 
     for (command in commands) {
