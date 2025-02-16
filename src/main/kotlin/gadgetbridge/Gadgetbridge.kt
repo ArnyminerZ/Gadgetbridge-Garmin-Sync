@@ -1,7 +1,7 @@
-package gadgetbridge
+package com.arnyminerz.ggs.gadgetbridge
 
-import data.Activity
-import gadgetbridge.tables.ColmiActivitySample
+import com.arnyminerz.ggs.data.Activity
+import com.arnyminerz.ggs.gadgetbridge.tables.ColmiActivitySample
 import java.io.File
 import java.sql.Connection
 import java.time.LocalDate

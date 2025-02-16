@@ -1,4 +1,4 @@
-package cli
+package com.arnyminerz.ggs.cli.args
 
 object Metadata : CLIArgument {
     override val key: String = "metadata"

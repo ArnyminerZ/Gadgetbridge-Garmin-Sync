@@ -1,4 +1,4 @@
-package serialization
+package com.arnyminerz.ggs.serialization
 
 import java.time.LocalDate
 import kotlinx.serialization.KSerializer

@@ -1,4 +1,4 @@
-package gadgetbridge.tables
+package com.arnyminerz.ggs.gadgetbridge.tables
 
 import java.time.LocalDateTime
 import java.time.ZoneOffset

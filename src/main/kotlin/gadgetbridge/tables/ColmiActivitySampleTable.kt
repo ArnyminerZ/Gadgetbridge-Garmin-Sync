@@ -1,4 +1,4 @@
-package gadgetbridge.tables
+package com.arnyminerz.ggs.gadgetbridge.tables
 
 import org.jetbrains.exposed.dao.id.EntityID
 import org.jetbrains.exposed.dao.id.IdTable

@@ -6,6 +6,19 @@
 This project takes the Gadgetbridge database, and exports a Garmin-compatible CSV file (Fitbit based), which you can
 import using the [Garmin import utility](https://connect.garmin.com/modern/import-data).
 
+## Usage
+### Data processing
+
+In order to do the data processing, you have to download the `Gadgetbridge-Garmin-Sync.jar` file from the latest release.
+Then, choose one of the following options:
+
+**Export `output.csv`:**
+
+This is the file required to import step data into Garmin Connect. Usage:
+```shell
+java -jar Gadgetbridge-Sync.jar export_csv --database <database> --metadata [metadata.json] --output [output.csv]
+```
+
 ## Motivation
 
 I really like the Garmin platform, and all my friends are there, but Fenix watches are bulky, and I don't really enjoy
