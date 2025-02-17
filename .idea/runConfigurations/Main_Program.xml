@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Main Program" type="JetRunConfigurationType">
-    <option name="MAIN_CLASS_NAME" value="com.arnyminerz.ggs.com.arnyminerz.ggs.MainKt" />
+    <option name="MAIN_CLASS_NAME" value="com.arnyminerz.ggs.MainKt" />
     <module name="Gadgetbridge-Garmin-Sync.main" />
-    <option name="PROGRAM_PARAMETERS" value="--database ./Gadgetbridge.db" />
+    <option name="PROGRAM_PARAMETERS" value="add_heart_rate --database ./Gadgetbridge.db --gpx example.gpx" />
     <shortenClasspath name="NONE" />
     <method v="2">
       <option name="Make" enabled="true" />

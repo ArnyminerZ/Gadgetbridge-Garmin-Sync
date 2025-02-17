@@ -21,6 +21,7 @@ dependencies {
     // Serialization
     implementation(libs.serialization.csv)
     implementation(libs.serialization.json)
+    implementation(libs.serialization.xml)
 }
 
 kotlin {

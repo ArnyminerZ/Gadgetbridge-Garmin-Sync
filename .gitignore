@@ -52,6 +52,7 @@ Gadgetbridge.db
 output.csv
 output.*.csv
 metadata.json
+*.gpx
 
 ### Browser ###
 driver

@@ -18,10 +18,12 @@ import kotlinx.serialization.json.decodeFromStream
 
 @OptIn(ExperimentalSerializationApi::class)
 object ExportCSVCommand : Command("export_csv") {
+    override val arguments = listOf<CLIArgument>(Help, Database, Metadata)
+
     override fun invoke(arguments: MutableMap<CLIArgument, String?>) {
         if (arguments[Help] != null) {
             println("Usage:")
-            println("export_csv --database <database> --metadata [metadata.json] --output [output.csv]")
+            println("$name --database <database> --metadata [metadata.json] --output [output.csv]")
             return
         }
 

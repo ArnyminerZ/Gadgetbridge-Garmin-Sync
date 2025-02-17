@@ -3,8 +3,8 @@ exposed = "0.58.0"
 kotlin = "2.1.10"
 kotlinx-serialization-csv = "2.1.0"
 kotlinx-serialization-json = "1.8.0"
-selenium = "4.28.1"
 sqlite = "3.44.1.0"
+xmlutil = "0.90.3"
 
 [libraries]
 exposed-core = { module = "org.jetbrains.exposed:exposed-core", version.ref = "exposed" }
@@ -13,6 +13,7 @@ exposed-jdbc = { module = "org.jetbrains.exposed:exposed-jdbc", version.ref = "e
 jdbc-sqlite = { module = "org.xerial:sqlite-jdbc", version.ref = "sqlite" }
 serialization-csv = { module = "de.brudaswen.kotlinx.serialization:kotlinx-serialization-csv", version.ref = "kotlinx-serialization-csv" }
 serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+serialization-xml = { module = "io.github.pdvrieze.xmlutil:serialization-jvm", version.ref = "xmlutil" }
 
 [plugins]
 jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }

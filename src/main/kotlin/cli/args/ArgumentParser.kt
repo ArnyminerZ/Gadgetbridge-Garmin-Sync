@@ -1,9 +1,7 @@
 package com.arnyminerz.ggs.cli.args
 
 object ArgumentParser {
-    private val arguments = listOf<CLIArgument>(Help, Database, Metadata)
-
-    fun parse(args: Array<String>) = mutableMapOf<CLIArgument, String?>().let { result ->
+    fun parse(arguments: List<CLIArgument>, args: List<String>) = mutableMapOf<CLIArgument, String?>().let { result ->
         var i = 0
         while (i < args.size) {
             val arg = args[i]
